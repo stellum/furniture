@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Furniture</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <script src="index.js" defer></script>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <div class="inner-container">
+        <div class="header_contents">
+          <!-- logo -->
+          <a href="">
+            <img id="logo" src="assets/logo.png" alt="" />
+          </a>
+
+          <!-- main menu -->
+          <nav id="nav">
+            <div>New in</div>
+            <div>Furniture</div>
+            <div>Rest</div>
+            <div>Decoration</div>
+            <div>Outdoor</div>
+            <div>Magazine</div>
+            <div>Outlet</div>
+          </nav>
+
+          <!-- submenu -->
+          <div id="header-submenu">
+            <div><img src="assets/user.svg" alt="user.svg" /></div>
+            <div><img src="assets/search.svg" alt="search.svg" /></div>
+            <div>
+              <img src="assets/shopping-bag.svg" alt="shopping-bag.svg" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- NEW COLLECTION-->
+    <main id="new-collection">
+      <div class="inner-container collection_wrap">
+        <div class="new-collection-text">
+          <h3>New Collection</h3>
+          <h1>Chairs & Stools</h1>
+          <h5>
+            Armchair upholstered in synthetic leather. Powder <br />
+            coated steel legs.
+          </h5>
+        </div>
+
+        <div class="left_container"></div>
+
+        <div class="right_container">
+          <div class="shop-now-box">
+            <h2 class="shop-now">Shop now</h2>
+            <button class="shop-btn"></button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- ON SALE-->
+    <div id="onsale">
+      <div class="inner-container">
+        <h3>On Sale</h3>
+
+        <div class="onsale_wrap">
+          <!-- On sale left side -->
+          <!-- 왼쪽이랑 오른쪽에 있는 박스들 높이가 안맞기때문에 grid로 주지 않고 
+          div 를 3개로 나눈다.
+        -->
+          <div>
+            <div class="onsale_header">
+              <h3>Up to 20% off</h3>
+              <div></div>
+              <p>Our entire Winter collection.</p>
+            </div>
+
+            <!-- sidebar -->
+            <ul id="onsale_sidebar_wrap">
+              <li class="onsale_menu">New in</li>
+              <li class="onsale_menu_collections">
+                Collections
+                <div class="hide">
+                  <div>Chairs</div>
+                  <div>Office Chairs</div>
+                  <div>Stools</div>
+                  <div>Rocking Chairs</div>
+                  <div>Benches</div>
+                </div>
+              </li>
+
+              <li class="onsale_menu">Rest</li>
+              <li class="onsale_menu">Decoration</li>
+              <li class="onsale_menu">Outdoor</li>
+              <li class="onsale_menu">Magazine</li>
+              <li class="onsale_menu">Outlet</li>
+            </ul>
+          </div>
+
+          <div id="onsale_contents_wrap">
+            <!-- center content -->
+            <div id="onsale_center_contents">
+              <div><h2>Accessories</h2></div>
+              <div><h2>Chairs & Stools</h2></div>
+              <div><h2>Lighting</h2></div>
+            </div>
+
+            <!-- right content -->
+            <div id="onsale_right_contents">
+              <div><h2>Sofas & armchairs</h2></div>
+              <div><h2>Tables</h2></div>
+              <div><h2>Furnishings</h2></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SPECIAL OFFER -->
+    <main id="special_offer">
+      <div class="inner-container">
+        <div class="special_offer_left_area_wrap">
+          <!-- left area -->
+          <div class="special_offer_left_area">
+            <!-- header -->
+            <div class="special_offer_header">
+              <h5>Special Offer</h5>
+              <h3>Join Us</h3>
+              <div class="latestnews_line"></div>
+              <p>
+                Sign up for the newsletter and receive <br />
+                10% off your first order.
+              </p>
+            </div>
+
+            <!-- form -->
+            <div class="special_offer_form">
+              <input type="text" placeholder="Name" />
+              <input type="text" placeholder="hello@abcdef.com" />
+              <button>sign up now</button>
+
+              <div class="special_offer_agreement">
+                <div><img src="assets/Radiobutton.svg" alt="" /></div>
+                <p>
+                  By subscribing you agree to our Terms & Conditions and Privacy
+                  & Cookies Policy.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="special_offer_right_area">
+          <img src="assets/autumn1.png" alt="">
+        </div>
+      </div>
+    </main>
+
+    <!-- TRENDING -->
+    <main id="trending">
+      <div class="inner-container">
+        <!-- Latest News -->
+        <div class="trending_latestnews_container">
+          <!-- header -->
+          <div class="trending_latestnews_header">
+            <h5>Trending</h5>
+            <h3>Latest News</h3>
+            <div class="latestnews_line"></div>
+            <p>
+              Brighten up your living areas this Winter with top <br />
+              tips from our interior design team.
+            </p>
+            <!-- button -->
+            <div class="explore-all-articles-box">
+              <h2 class="explore-all">EXPLORE ALL ARTICLES</h2>
+              <button class="trending_btn"></button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Image container -->
+        <div class="trending_image_container">
+          <img src="assets/autumn9.jpg" alt="">
+        </div>
+
+        <!-- Living room container -->
+        <div class="trending_livingroom_container">
+          <div>
+            <h3>
+              Living room and lighting ideas that will inspire you this Winter.
+            </h3>
+            <div class="livingroom_line"></div>
+            <p>
+              Choosing the right mattress is not so simple. We all sleep in a
+              different way and we all want our mattress to adapt perfectly to
+              our body.
+            </p>
+            <!-- profile -->
+            <div class="trending_profile">
+              <div><img src="assets/profile.png" alt="profile" /></div>
+              <p>Editorial staff</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <!-- AUTUMN COLLECTION -->
+    <main id="autumn_collection">
+      <div class="wrapper">
+        <i id="left" class="fa-solid fa-angle-left"></i>
+        <div class="carousel">
+          <img src="assets/autumn5.jpg" alt="img" draggable="false" />
+          <img src="assets/autumn7.jpg" alt="img" draggable="false" />
+          <img src="assets/autumn1.png" alt="img" draggable="false" />
+          <img src="assets/autumn6.jpg" alt="img" draggable="false" />
+          <img src="assets/autumn8.jpg" alt="img" draggable="false" />
+          <img src="assets/autumn9.jpg" alt="img" draggable="false" />
+          <img src="assets/autumn2.png" alt="img" draggable="false" />
+          <img src="assets/autumn10.jpg" alt="img" draggable="false" />
+          <img src="assets/autumn4.jpg" alt="img" draggable="false" />
+        </div>
+        <i id="right" class="fa-solid fa-angle-right"></i>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <div id="footer">
+      <div class="inner-container">
+        <div class="footer-content">
+          <div class="footer-menu">
+            <!-- 1st menu  -->
+            <div class="footer_menu_div">
+              <div class="footer-menu-About">
+                <span>Shop</span>
+                <div class="menu-group-component">
+                  <ul class="footer-menu-About">
+                    <li class="menu-item"><a href="">Accessories</a></li>
+                    <li class="menu-item"><a href="">Sofas & armchairs</a></li>
+                    <li class="menu-item"><a href="">Chairs & stools</a></li>
+                    <li class="menu-item"><a href="">Tables</a></li>
+                    <li class="menu-item"><a href=""> Lighting</a></li>
+                    <li class="menu-item"><a href="">Furnishings</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- 2nd menu -->
+            <div class="footer_menu_div">
+              <div class="footer-menu-About">
+                <span>About</span>
+                <div class="menu-group-component">
+                  <ul class="footer-menu-About">
+                    <li class="menu-item"><a href=""> Our story</a></li>
+                    <li class="menu-item"><a href="">Our stores</a></li>
+                    <li class="menu-item"><a href="">Refer a friend</a></li>
+                    <li class="menu-item"><a href="">Careers</a></li>
+                    <li class="menu-item"><a href="">Press</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- 3rd menu -->
+            <div class="footer_menu_div">
+              <div class="footer-menu-About">
+                <span>Help</span>
+                <div class="menu-group-component">
+                  <ul class="footer-menu-About">
+                    <li class="menu-item">
+                      <a href=""> Shipping & returns</a>
+                    </li>
+                    <li class="menu-item"><a href="">Warranty & repairs</a></li>
+                    <li class="menu-item"><a href="">All FAQs</a></li>
+                    <li class="menu-item"><a href="">Contact Us</a></li>
+                  </ul>
+                </div>
+                        
+            <div class="menu-group-component">
+              <ul class="menu-group-icons">
+                <li><a href=""><img src="assets/instagram.svg" alt="" /></a></li>
+                <li><a href=""><img src="assets/facebook.svg" alt="" /></a></li>
+              <li><a href=""><img src="assets/twitter.svg" alt="" /></a></li>
+              </ul>
+            </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- footer newsletter -->
+          <div class="footer_newsletterWrapper">
+            <div class="footer_newsletter">
+              <h2>Sign up for our emails</h2>
+              <form class="email-capture-component">
+                <p>
+                  We’ll send you updates on our latest launches and more. Need
+                  to take off? Unsubscribe at any time.
+                </p>
+                <label for=""></label>
+                <div class="button-wrapper">
+                  <input type="text" placeholder="Email address">
+                  <button>SIGN UP NOW</button>
+                </div>
+              </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+        <!-- footer submenu -->
+        <div class="footer-submenuWrapper">
+          <div class="footer-submenu">
+            <span>© 2023 Furniture, Inc.</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
